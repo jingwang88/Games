@@ -1,0 +1,63 @@
+#container {
+
+}
+.picture-list {
+	width: 325px;
+	margin: 0 auto;
+}
+.images {
+	width: 100px;
+	height: 100px;
+	opacity: 0.5;
+	transform: filter(opacity: 50);
+	-webkit-opacity: 0.5;
+	-o-opacity: 0.5;
+	-moz-opacity: 0.5;
+}
+.on-image {
+	opacity: 1;
+	trasform: filter(opacity: 100);
+	-webkit-opacity: 1;
+	-o-opacity: 1;
+	-moz-opacity: 1;
+}
+#btn {
+	display: block;
+	width: 80px;
+	height: 30px;
+	margin: 10px auto;
+}
+.game-zone {
+	position: relative;
+	margin: 0 auto;
+	width: 710px;
+	height: 410px;
+}
+#doImage {
+	width: 710px;
+	height: 402px;
+}
+.game-zone ul {
+	list-style: none;
+	padding: 0;
+}
+ul li {
+	position: relative;
+	display: inline-block;
+	/*换行时出现缝隙解决办法*/
+	vertical-align:middle;
+	width: 140px;
+	height: 80px;
+	border: 1px solid white;
+}
+ul {
+	*zoom: 1;
+}
+li img {
+	position: relative;
+	z-index: 1;
+	width: 140px;
+	height: 80px;
+	left: 0px;
+	right: 0px;
+}
