@@ -1,0 +1,12 @@
+body {
+	height: 100%;
+	background-color: #000;
+}
+.button-control {
+	width: 400px;
+}
+.button-control input {
+	margin: 10px 10px;
+	width: 90px;
+	height: 30px;
+}
